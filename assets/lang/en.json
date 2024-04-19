@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Portfolio",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Hey! I'm Jeohvanny",
+        "description": "Computer Systems Engineer. Specialized in Software Engineering.",
+        "download-btn": "Download CV"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "Hello!, my name is Jeohvanny Sanchez but my friends call me Yova, I am a proactive Computer Systems Engineer with experience in Developer. I stand out for my ability to work in a team, adapt to change, continuous improvement and deliver efficient solutions. My professional goal is to contribute to the development of high quality software."
+    },
+    "skills": {
+        "title": "Skills",
+        "description": "Brief description of each expert skill like HTML, JavaScript, and React, and intermediate skills in CSS, Next.js, Node.js, TypeScript, Git, and GitHub. Additionally, I have intermediate skills in Java, SQL, MongoDB, and Jest.",
+        "html5": "I have extensive knowledge in using the latest features and best practices to create semantic and accessible structures in web pages.",
+        "css3": "Although I am not an expert, I have solid skills to style and design web pages, including creating responsive and attractive designs.",
+        "javascript": "I excel in the language and its advanced features, I can solve complex problems and develop interactive and dynamic web applications.",
+        "typescript": "I have fundamental knowledge and can write TypeScript code to improve the quality and security of my JavaScript applications.",
+        "react": "I have a solid understanding of creating modern and scalable user interfaces using reusable components.",
+        "nextjs": "Although I'm not a specialist, I have a solid understanding of this powerful React library for creating high-performance web applications.",
+        "electron": "My experience includes the development of applications implementing advanced features such as inter-process communication and database integration.",
+        "nodejs": "Although I'm not an expert, I can develop server applications using frameworks like Express, and manage packages with yarn and npm.",
+        "db-title": "Database",
+        "db": "I have solid experience in designing and implementing relational and NoSQL database systems using SQL and MongoDB.",
+        "java": "I have worked on projects using Java, my experience has allowed me to acquire a solid knowledge of syntax and best practices in OOP.",
+        "git": "I have experience in version control and collaborative work on software development projects.",
+        "github": "Effective collaboration and project management, I can use GitHub effectively to share and collaborate on software development projects.",
+        "soft": "Soft Skills",
+        "responsible": "Responsible",
+        "teamwork": "Teamwork",
+        "creative": "Creative",
+        "thinking": "Critical thinking",
+        "resolution": "Problem solving",
+        "punctual": "Punctual",
+        "proactive": "Proactive",
+        "autodidact": "Self-taught"
+    },
+    "projects": {
+        "title": "Projects",
+        "firts-project-title": "Website",
+        "firts-project-desc": "Website for the EDSA company.",
+        "second-project-title": "Point of Sale System",
+        "second-project-desc": "Point of sale and payment control system Tel-Pos.",
+        "third-project-title": "Login",
+        "third-project-desc": "Universal login for point of sale systems.",
+        "fourth-project-title": "Yolo-Style Point of Sale",
+        "fourth-project-desc": "Point of sale and reservation system for the Yolo-Style business.",
+        "project-btn": "View Code",
+        "project-license": "Private license"
+    },
+    "contact": {
+        "title": "Contact",
+        "info-title": "Contact Information",
+        "info-desc": "Do you need a software developer for your team? Let's talk about how I can add value to your project!",
+        "send-message": "Send message to WhatsApp",
+        "form-name": "Name",
+        "form-email": "Email",
+        "form-subject": "Subject",
+        "form-message": "Message",
+        "form-modal-desc": "Form successfully sent!",
+        "form-modal-btn": "Send"
+    },
+    "footer": {
+        "description": "Computer Systems Engineer. Specialized in Software Engineering.",
+        "social-networks": "Social Networks",
+        "copyright": "All rights reserved"
+    }
+}

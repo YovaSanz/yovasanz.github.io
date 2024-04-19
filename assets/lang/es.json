@@ -1,0 +1,74 @@
+{
+    "navbar": {
+        "home":"Inicio",
+        "about":"Acerca de Mí",
+        "skills":"Habilidades",
+        "projects":"Portafolio",
+        "contact":"Contacto"
+    },
+    "home": {
+        "title": "¡Hola!, soy Jeohvanny",
+        "description": "Ingeniero en Sistemas Computacionales. Especializado en Ingeniería de Software.",
+        "download-btn": "Descargar CV"
+    },
+    "about": {
+        "title": "Acerca de Mí",
+        "description": "¡Hola!, Me llamo Jeohvanny Sanchez pero mis amigos me llaman Yova, soy un Ingeniero en Sistemas Computacionales proactivo con experiencia en Desarrollador. Destaco por mi capacidad para trabajar en equipo, adaptarme al cambio, la mejora continua y entregar soluciones eficientes. Mi objetivo profesional es contribuir al desarrollo de software de alta calidad."
+    },
+    "skills": {
+        "title": "Habilidades",
+        "description": "Descripción breve de cada una de las habilidades expertas como HTML, JavaScript y React, y habilidades intermedias en CSS, Next.js, Node.js, TypeScript, Git y GitHub. Además, tengo habilidades intermedias en Java, SQL, MongoDB y Jest.",
+        "html5": "Tengo un amplio conocimiento en el uso de las últimas características y mejores prácticas para la creación de estructuras semánticas y accesibles en páginas web.",
+        "css3": "Aunque no soy un experto, tengo habilidades sólidas para dar estilo y diseño a las páginas web, incluyendo la creación de diseños responsivos y atractivos.",
+        "javascript": "Domino en el lenguaje y sus características avanzadas, puedo resolver problemas complejos y desarrollar aplicaciones web interactivas y dinámicas.",
+        "typescript": "Tengo un conocimiento fundamental y puedo escribir código TypeScript para mejorar la calidad y la seguridad de mis aplicaciones JavaScript.",
+        "react": "Tengo un sólido conocimiento en la creación de interfaces de usuario modernas y escalables utilizando componentes reutilizables.",
+        "nextjs": "Aunque no soy un especialista, tengo un conocimiento sólido de esta potente biblioteca de React para crear aplicaciones web de alto rendimiento.",
+        "electron": "Mi experiencia incluye el desarrollo de aplicaciones implementando características avanzadas como comunicación entre procesos e integración de bases de datos.",
+        "nodejs":"Aunque no soy un experto, puedo desarrollar aplicaciones de servidor utilizando frameworks como Express, y gestionando paquetes con yarn y npm.",
+        "db-title": "Base de Datos",
+        "db": "Tengo experiencia sólida en el diseñado e implementado sistemas de bases de datos tanto relacionales como NoSQL utilizando SQL y MongoDB.",
+        "java": "He trabajado en proyectos utilizando Java, mi experiencia me ha permitido adquirir un conocimiento sólido de la sintaxis y las mejores prácticas en POO.",
+        "git": "Tengo experiencia en el control de versiones y el trabajo colaborativo en proyectos de desarrollo de software.",
+        "github": "Colaboración efectiva y gestión de proyectos, puedo utilizar GitHub de manera efectiva para compartir y colaborar en proyectos de desarrollo de software.",
+        "soft": "Habilidades Blandas",
+        "responsible": "Responsable",
+        "teamwork": "Trabajo en equipo",
+        "creative": "Creativo",
+        "thinking": "Pensamiento crítico",
+        "resolution": "Resolución de problemas",
+        "punctual": "Puntual",
+        "proactive": "Proactivo",
+        "autodidact": "Autodidacta"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "firts-project-title": "Sitio Web",
+        "firts-project-desc": "Sito web para la empresa EDSA.",
+        "second-project-title": "Sistema de punto de venta",
+        "second-project-desc": "Sistema de punto de venta y contros de pagos Tel-Pos.",
+        "third-project-title": "Inicio de Sesion",
+        "third-project-desc": "Inicio de sesion universal para sistemas de puntos de ventas.",
+        "fourth-project-title": "Punto de venta Yolo-Style",
+        "fourth-project-desc": "Sistema punto de venta y apartado, para el negocio Yolo-Style",
+        "project-btn": "Ver Codigo",
+        "project-license": "Licencia privada"
+    },
+    "contact": {
+        "title": "Contacto",
+        "info-title": "Información de contacto",
+        "info-desc": "¿Necesitas un desarrollador de software para tu equipo? ¡Hablemos sobre cómo puedo aportar valor a tu proyecto!",
+        "send-message": "Enviar mensaje a WhatsApp",
+        "form-name": "Nombre",
+        "form-email": "Correo",
+        "form-subject": "Asunto",
+        "form-message": "Mensaje",
+        "form-modal-desc": "Formulario enviado con éxito!",
+        "form-modal-btn": "Enviar"
+    },
+    "footer": {
+        "description": "Ingeniero en Sistemas Computacionales. Especializado en Ingeniería de Software.",
+        "social-networks" : "Redes Sociales",
+        "copyright": "Todos los derechos reservados"
+    }
+}

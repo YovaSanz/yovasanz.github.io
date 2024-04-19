@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Alejandra Olazagasti" />
+		<meta name="description" content="Explora mi portafolio en línea para descubrir mi pasión y experiencia en desarrollo de web." />
+		<meta
+			name="keywords"
+			content="developer, desarrollo web, desarrollo de software, desarrollador Full Stack"
+		/>
+		<meta name="theme-color" content="#09f" />
+		<!-- Fuente  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link 
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" 
+			rel="stylesheet" 
+		/>
+		<!-- Iconos  -->
+		<script src="https://kit.fontawesome.com/b2f8ac7404.js" crossorigin="anonymous"></script>
+
+
+		<title>Jeohvanny Sanchez</title>
+
+		<link rel="icon" href="assets/img/logo.svg" type="image/png" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<script type="module" src="assets/js/main.js"></script>
+		<script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+		<script type="text/javascript">
+		emailjs.init('1cJuUzsuIVOWCNsS4')
+		</script>
+	</head>
+
+	<body>
+		<header class="header">
+			<nav class="navbar grid--container flex--container">
+				<a class="navbar__logo flex--container" href="#">
+					<i class="fa-solid fa-terminal"></i>Jeoh
+				</a>
+
+				<div id="nav" class="navbar__menu">
+					<a href="#close">
+						<i class="fa-solid fa-x btn__close navbar__icon flex--container"></i>
+					</a>
+
+					<ul class="navbar__list flex--container">
+						<li class="navbar__item">
+							<a class="navbar__link active" href="#home" data-section="navbar" data-value="home">Inicio</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#about" data-section="navbar" data-value="about">Acerca de Mí</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#skills" data-section="navbar" data-value="skills">Habilidades</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#projects" data-section="navbar" data-value="projects">Portafolio</a>
+						</li>
+						<li class="navbar__item">
+							<a class="navbar__link" href="#contact" data-section="navbar" data-value="contact">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar__toggles flex--container">
+					<div class="navbar__toggle--darkmode flex--container">
+						<input
+							type="checkbox"
+							name="color-scheme"
+							id="darkmode-toggle"
+							class="navbar__toggle--darkmode-input"
+						/>
+						<label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+							<i class="fa-regular fa-sun navbar__toggle--darkmode-sun"></i>
+							<i class="fa-regular fa-moon navbar__toggle--darkmode-moon"></i>
+						</label>
+					</div>
+					<div class="navbar__toggle--language flex--container">
+						<label for="language-toggle" class="navbar__toggle--language-label">
+							<i class="fa-solid fa-globe"></i>
+						</label>
+						<select id="language-toggle" class="navbar__toggle--language-select">
+							<option value="es" selected>Español</option>
+							<option value="en">English</option>
+						</select>
+					</div>
+				</div>
+				<a href="#nav">
+					<i class="fa-solid fa-bars btn__open navbar__icon flex--container"></i>
+				</a>
+			</nav>
+		</header>
+		
+		<main>
+			<section id="home" class="home">
+				
+				<i class="fa-brands fa-html5 home__layer home__layer--1" data-speed="-5"></i>
+				<i class="fa-brands fa-square-js home__layer home__layer--2" data-speed="6"></i>
+				<i class="fa-brands fa-css3-alt home__layer home__layer--3" data-speed="2"></i>
+				<i class="fa-brands fa-bootstrap home__layer home__layer--4" data-speed="-2"></i>
+				<i class="home__layer home__layer--5" data-speed="4">
+					<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+				</i>
+				<i class="fa-brands fa-node home__layer home__layer--6" data-speed="6"></i>
+				<i class="fa-brands fa-react home__layer home__layer--7" data-speed="8"></i>
+				<i class="home__layer home__layer--8" data-speed="3">
+					<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Next.js</title><path d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z"/></svg>
+				</i>
+				<i class="home__layer home__layer--9" data-speed="-5">
+					<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TypeScript</title><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg>
+				</i>
+				<i class="fa-brands fa-npm home__layer home__layer--10" data-speed="4"></i>
+				<i class="fa-brands fa-yarn home__layer home__layer--11" data-speed="8"></i>
+				<i class="fa-brands fa-git home__layer home__layer--12" data-speed="-3"></i>
+				<i class="fa-brands fa-github home__layer home__layer--13" data-speed="-4"></i>
+				<i class="fa-solid fa-code home__layer home__layer--14" data-speed="-5" ></i> 
+								
+				<div class="home__container grid--container">
+					<div class="home__image">
+						<img
+							src="assets/img/coding.svg"
+							alt="profile photo"
+							title="Jeohvanny"
+						/>
+					</div>
+
+					<ul class="home__social flex--container">
+						<li class="home__social-item">
+							<a class="home__social-link" href="https://www.linkedin.com/in/jeohvannysanchez/" target="_blank"
+								><i class="fa-brands fa-linkedin-in"></i
+							></a>
+						</li>
+						<li class="home__social-item">
+							<a class="home__social-link" 
+								href="https://wa.me/+527571148711?text=Tu%20Mensaje%20De%20Texto"
+								target="_blank"
+								><i class="fa-brands fa-whatsapp"></i
+							></a>
+						</li>
+						<li class="home__social-item">
+							<a class="home__social-link" href="https://github.com/YovaSanz" target="_blank"
+								><i class="fa-brands fa-github"></i
+							></a>
+						</li>
+						<li class="home__social-item">
+							<a class="home__social-link" href="#contact"
+								><i class="fa-solid fa-envelope"></i
+							></a>
+						</li>
+					</ul>
+
+					<div class="home__info">
+						<h1 class="home__title" data-section="home" data-value="title">¡Hola!, soy Jeohvanny</h1>
+
+						<p class="home__description" data-section="home" data-value="description">
+							Ingeniero en Sistemas Computacionales. Especializado en Ingeniería de Software.
+						</p>
+					</div>
+
+					<div class="home__buttons">
+						<a
+							class="btn btn--primary"
+							href="./assets/docs/cv_Jeohvanny.pdf"
+							title="Descargar mi CV"
+							download="cv_Jeohvanny"
+							rel="noreferrer nofollow"
+							data-section="home"
+							data-value="download-btn"
+						>
+							Descargar CV
+						</a>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="about section ">
+				<h2 class="section__title" data-section="about" data-value="title">Acerca de Mí</h2>
+
+				<div class="about__container flex--container">
+
+					<div class="about__cards">
+						<div class="about__card">
+							<img
+								class="about__card--img"
+								src="assets/img/profile.png"
+								alt="Laborando como ingeniero"
+								title="Laborando como ingeniero"
+							/>
+						</div>
+					</div>
+
+					<p class="about__description" data-section="about" data-value="description">
+						¡Hola!, Me llamo Jeohvanny Sanchez pero mis amigos me llaman Yova, 
+						soy un Ingeniero en Sistemas Computacionales proactivo con experiencia en Desarrollador.
+						Destaco por mi capacidad para trabajar en equipo, adaptarme al cambio, la mejora continua y 
+						entregar soluciones eficientes. Mi objetivo profesional es contribuir al desarrollo de software
+						de alta calidad.
+					</p>
+				</div>
+			</section>
+			<section id="skills" class="skills section">
+				<h2 class="section__title" data-section="skills" data-value="title">Habilidades</h2>
+
+				<div class="skills__container grid--container">
+					<p class="skills__description flex--container" data-section="skills" data-value="description">
+						Breve descripción de mis habilidades avanzadas en HTML, JavaScript, React y Electron.js, 
+						así como mis habilidades intermedias en CSS, Next.js, Node.js, TypeScript, Jest, SQL, MongoDB, Java, Python, Git y GitHub.
+					</p>
+
+					<div class="skills__wrapper flex--container">
+						<div class="skills__cards-container">
+							<div class="face face__1 card__1">
+								<div class="content">
+									<img src="./assets/img/icons/html5.svg" alt="icon-html2">
+									<h3>HTML5</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="html5">
+										Tengo un amplio conocimiento en el uso de las últimas características y mejores prácticas para la creación de estructuras semánticas y accesibles en páginas web.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__2">
+								<div class="content">
+									<img src="./assets/img/icons/css3.svg" alt="icon-css3">
+									<h3>CSS3</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="css3">
+										Aunque no soy un experto, tengo habilidades sólidas para dar estilo y diseño a las páginas web, incluyendo la creación de diseños responsivos y atractivos. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__3">
+								<div class="content">
+									<img src="./assets/img/icons/javascript.svg" alt="icon-javascript">
+									<h3>JS</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p  data-section="skills" data-value="javascript">
+										Domino en el lenguaje y sus características avanzadas, puedo resolver problemas complejos y desarrollar aplicaciones web interactivas y dinámicas.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__4">
+								<div class="content">
+									<img src="./assets/img/icons/typescript.svg" alt="icon-TypeScript">
+									<h3>TypeScript</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="typescript">
+										Tengo un conocimiento fundamental y puedo escribir código TypeScript para mejorar la calidad y la seguridad de mis aplicaciones JavaScript.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__5">
+								<div class="content">
+									<img src="./assets/img/icons/react.svg" alt="icon-javascript">
+									<h3>React</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="react">
+										Tengo un sólido conocimiento en la creación de interfaces de usuario modernas y escalables utilizando componentes reutilizables.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__6">
+								<div class="content">
+									<img src="./assets/img/icons/nextjs.svg" alt="icon-nextjs">
+									<h3>Next.js</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="nextjs">
+										Aunque no soy un especialista, tengo un conocimiento sólido de esta potente biblioteca de React para crear aplicaciones web de alto rendimiento.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__7">
+								<div class="content">
+									<img src="./assets/img/icons/electron.svg" alt="icon-electron">
+									<h3>Electron.js</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="electron">
+										Mi experiencia incluye el desarrollo de aplicaciones implementando características avanzadas como comunicación entre procesos e integración de bases de datos.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__8">
+								<div class="content">
+									<img src="./assets/img/icons/nodejs.svg" alt="icon-nodejs">
+									<h3>Node.js</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="nodejs">
+										Aunque no soy un experto, puedo desarrollar aplicaciones de servidor utilizando frameworks como Express, y gestionando paquetes con yarn y npm.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__9">
+								<div class="content">
+									<img src="./assets/img/icons/database.svg" alt="icon-bd">
+									<h3 data-section="skills" data-value="db-title">Base de Datos</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="db">
+										Tengo experiencia sólida en el diseñado e implementado sistemas de bases de datos tanto relacionales como NoSQL utilizando SQL y MongoDB.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="card-10 face face__1 card__10">
+								<div class="content">
+									<img src="./assets/img/icons/java.svg" alt="icon-java">
+									<h3>Java</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="java">
+										He trabajado en proyectos utilizando Java, mi experiencia me ha permitido adquirir un conocimiento sólido de la sintaxis y las mejores prácticas en POO.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__11">
+								<div class="content">
+									<img src="./assets/img/icons/git.svg" alt="icon-git">
+									<h3>Git</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="git">
+										Tengo experiencia en el control de versiones y el trabajo colaborativo en proyectos de desarrollo de software.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="skills__cards-container">
+							<div class="face face__1 card__12">
+								<div class="content">
+									<img src="./assets/img/icons/github.svg" alt="icon-github">
+									<h3>GitHub</h3>
+								</div>
+							</div>
+							<div class="face face__2">
+								<div class="content">
+									<p data-section="skills" data-value="github">
+										Colaboración efectiva y gestión de proyectos, puedo utilizar GitHub de manera efectiva para compartir y colaborar en proyectos de desarrollo de software.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills__tags flex--container">
+						<h3 class="skills__tags-title" data-section="skills" data-value="soft">Habilidades Blandas</h3>
+						<div class="skills__tags-container flex--container">
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="responsible"> Responsable </span>
+							</div>
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="teamwork"> Trabajo en equipo </span>
+							</div>
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="creative"> Creativo </span>
+							</div>
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="thinking"> Pensamiento crítico </span>
+							</div>
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="resolution"> Resolución de problemas </span>
+							</div>
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="punctual"> Puntual </span>
+							</div>
+							<div class="skills__tag">
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="proactive"> Proactivo </span>
+							</div>
+							<div class="skills__tag" >
+								<i class="fa-solid fa-diamond"></i>
+								<span data-section="skills" data-value="autodidact"> Autodidacta </span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="projects section">
+				<h2 class="section__title" data-section="projects" data-value="title">Proyectos</h2>
+
+				<div class="projects__container grid--container">
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									class="img-1"
+									src="assets/img/proyect_1.png"
+									alt="project 1"
+									title="Ecommerce Vanilla"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name" data-section="projects" data-value="firts-project-title">Sitio Web</h3>
+								<p class="projects__description" data-section="projects" data-value="firts-project-desc">
+									Sito web para la empresa EDSA.
+								</p>
+
+								<div class="projects__buttons">
+									<div class="projects__tag">
+										<i class="fa-solid fa-lock"></i> 
+										<span data-section="projects" data-value="project-license">Licencia privada</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									class="img-2"
+									src="assets/img/proyect_2.jpg"
+									alt="project 1"
+									title="Consumiendo API Pokemon con React"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name" data-section="projects" data-value="second-project-title">Sistema de punto de venta</h3>
+								<p class="projects__description" data-section="projects" data-value="second-project-desc">
+									Sistema de punto de venta y contros de pagos Tel-Pos.
+								</p>
+
+								<div class="projects__buttons">
+									<a href="https://github.com/YovaSanz/tel-pos" target="_blank">
+										<button class="btn projects__button" type="button">
+											<i class="fa-solid fa-code"></i>
+											<span data-section="projects" data-value="project-btn">Ver Codigo</span>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									class="img-1"
+									src="assets/img/proyect_3.jpg"
+									alt="project 1"
+									title="CRUD con React"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name" data-section="projects" data-value="third-project-title">Inicio de Sesion</h3>
+								<p class="projects__description" data-section="projects" data-value="third-project-desc">
+									Inicio de sesion universal para sistemas de puntos de ventas.
+								</p>
+
+								<div class="projects__buttons">
+									<div class="projects__buttons">
+										<div class="projects__tag">
+											<i class="fa-solid fa-lock"></i> 
+											<span data-section="projects" data-value="project-license">Licencia privada</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="projects__project">
+						<div class="projects__inner grid--container">
+							<div class="projects__image">
+								<img
+									class="img-2"
+									src="assets/img/project_4.png"
+									alt="project 1"
+									title="Aplicación del tiempo con React"
+								/>
+							</div>
+
+							<div class="projects__info">
+								<h3 class="projects__name" data-section="projects" data-value="fourth-project-title">Punto de venta Yolo-Style</h3>
+								<p class="projects__description" data-section="projects" data-value="fourth-project-desc">
+									Sistema punto de venta y apartado, para el negocio Yolo-Style
+								</p>
+
+								<div class="projects__buttons">
+									<div class="projects__buttons">
+										<div class="projects__tag">
+											<i class="fa-solid fa-lock"></i> 
+											<span data-section="projects" data-value="project-license">Licencia privada</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="contact section">
+				<h2 class="section__title" data-section="contact" data-value="title">Contacto</h2>
+
+				<div class="contact__container grid--container">
+					<div class="contact__info">
+						<h3 class="contact__info-title" data-section="contact" data-value="info-title">Información de contacto</h3>
+						<p class="contact__info-description" data-section="contact" data-value="info-desc">
+							¿Necesitas un desarrollador de software para tu equipo? ¡Hablemos sobre cómo puedo aportar valor a tu proyecto!
+						</p>
+
+						<address class="contact__info-data">
+							<div class="contact__info-item">
+								<i class="fa-brands fa-whatsapp"></i>
+
+								<span class="contact__info-number">
+									<a
+										href="https://wa.me/+527571148711?text=Tu%20Mensaje%20De%20Texto"
+										target="_blank"
+										rel="noreferrer nofollow"
+										data-section="contact" 
+										data-value="send-message"
+										>Enviar mensaje a WhatsApp</a
+									>
+								</span>
+							</div>
+
+							<div class="contact__info-item">
+								<i class="fa-solid fa-phone"></i>
+
+								<span class="contact__info-number">
+									<a
+										href="tel:+527571148711"
+										target="_blank"
+										rel="noreferrer nofollow"
+									>
+										+52 757 114 8711
+									</a>
+								</span>
+							</div>
+
+							<div class="contact__info-item">
+								<i class="fa-regular fa-envelope"></i>
+
+								<span class="contact__info-mail">
+									<a
+										id="mail"
+										href="mailto:jeohvanny.sanz@gmail.com"
+										target="_blank"
+										rel="noreferrer nofollow"
+									>
+										jeohvanny.sanz@gmail.com
+									</a>
+								</span>
+							</div>
+
+							<div class="contact__info-item">
+								<i class="fa-solid fa-location-dot"></i>
+
+								<span class="contact__info-map"> Mexico. </span>
+							</div>
+						</address>
+					</div>
+					<div class="contact__form">
+						<h3 class="contact__form-title" data-section="contact" data-value="form-title">Enviar mensaje</h3>
+						<form id="form" class="contact__form-container">
+							<div class="contact__form-group">
+								<label for="name" class="contact__form-label" data-section="contact" data-value="form-name">Nombre</label>
+								<input
+									type="text"
+									id="from_name"
+									name="from_name"
+									class="contact__form-input"
+								/>
+							</div>
+
+							<div class="contact__form-group">
+								<label for="email" class="contact__form-label" data-section="contact" data-value="form-email">Correo</label>
+								<input
+									type="email"
+									id="email_id"
+									name="email_id"
+									class="contact__form-input"
+								/>
+							</div>
+
+							<div class="contact__form-group">
+								<label for="subject" class="contact__form-label" data-section="contact" data-value="form-subject">Asunto</label>
+								<input
+									type="text"
+									id="affair"
+									name="affair"
+									class="contact__form-input"
+								/>
+							</div>
+
+							<div class="contact__form-group">
+								<label for="message" class="contact__form-label" data-section="contact" data-value="form-message">Mensaje</label>
+								<textarea
+									id="message"
+									name="message"
+									cols="30"
+									rows="10"
+									class="contact__form-input"
+								></textarea>
+							</div>
+							<dialog id="modal">
+								<span data-section="contact" data-value="form-modal-desc">Formulario enviado con éxito!</span>
+								<button type="reset" id="btn_close-modal"><i class="fa-solid fa-x"></i></button>
+							</dialog>
+
+							<button 
+								type="submit" 
+								class="btn contact__form-button" 
+								id="btn_form" 
+								value="Send Email">
+								<span data-section="contact" data-value="form-modal-btn"> Enviar </span>
+								<i class="fa-solid fa-arrow-right-long"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer section">
+			<div class="footer__container grid--container">
+				<div class="footer__info">
+					<h3 class="footer__title">Jeohvanny Sanchez</h3>
+					<p class="footer__description" data-section="footer" data-value="description">
+						Ingeniero en Sistemas Computacionales. Especializado en Ingeniería de Software.
+					</p>
+				</div>
+
+				<div class="footer__social">
+					<h3 class="footer__title" data-section="footer" data-value="social-networks">Redes Sociales</h3>
+
+					<ul class="footer__social-list">
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://github.com/YovaSanz"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="fa-brands fa-github"></i
+							></a>
+						</li>
+						
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://www.linkedin.com/in/jeohvannysanchez/"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="fa-brands fa-linkedin"></i
+							></a>
+						</li>
+
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://www.instagram.com/yova_sanz/"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="fa-brands fa-instagram"></i
+							></a>
+						</li>
+
+						<li class="footer__social-item">
+							<a
+								class="footer__social-link"
+								href="https://twitter.com/Yova_Sanz"
+								target="_blank"
+								rel="noreferrer nofollow"
+								><i class="fa-brands fa-twitter"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<p class="footer__copy"> <span id="date__copy"></span> <span data-section="footer" data-value="copyright">Todos los derechos reservados</span></p>
+		</footer>
+	</body>
+</html>
